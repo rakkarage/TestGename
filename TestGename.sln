@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.28407.52
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gename", "Gename\Gename.csproj", "{73484A46-2617-495F-A214-EB61666D0F4A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NewTestChat", "NewTestChat\NewTestChat.csproj", "{105E259C-F0A7-47BD-99D3-541FABF10B9D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestGename", "TestGename\TestGename.csproj", "{105E259C-F0A7-47BD-99D3-541FABF10B9D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
