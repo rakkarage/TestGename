@@ -2,8 +2,10 @@ FROM microsoft/dotnet:sdk AS build-env
 WORKDIR /app
 
 # Copy csproj and restore as distinct layers
-COPY *.csproj ./
-RUN dotnet restore
+COPY ./TestGename.sln ./
+COPY ./TestGename/TestGename.csproj ./TestGename/
+COPY ./Gename/Gename.csproj ./Gename/
+RUN dotnet restore ./TestGename/TestGename.csproj
 
 # Copy everything else and build
 COPY . ./
