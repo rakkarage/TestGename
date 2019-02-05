@@ -1,2 +1,3 @@
 sudo dotnet publish -c Release -o /var/www/html/chat
-~/restart.sh
+sudo nginx -s reload
+sudo systemctl restart chat.service
